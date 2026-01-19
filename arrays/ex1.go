@@ -1,4 +1,2 @@
-var planets [8]
+package arrays
 
-
-var a;

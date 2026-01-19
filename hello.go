@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	// "first"
+)
+
 
 func main() {
 	var planets [8]string
@@ -18,7 +22,15 @@ func main() {
 		{128, 128, 128},
 		{255, 255, 255},
 	}
-	fmt.Print(nums, nums2, rgb)
-}
 
-// variable
+	name := "Alex"
+
+	fmt.Print(nums, nums2, rgb)
+	fmt.Printf("My name %s", name)
+	// first.MyPrint("Hello, World!")
+
+	// myFunc  // camel case
+	// MyFunc  // Pascal case
+	// my_func // snake case
+	// my-func  // kebab case
+}
